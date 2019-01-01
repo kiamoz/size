@@ -15,7 +15,7 @@ use common\models\ProductCategoryHasAttGroup;
 use common\models\ProductCategoryHasCategory;
 
 /**
- * ProductCategoryController implements the CRUD actions for ProductCategory model.
+ * ProductCategoryController implements the CRUD actions for ProductCategory model. and more
  */
 class ProductCategoryController extends Controller {
 
