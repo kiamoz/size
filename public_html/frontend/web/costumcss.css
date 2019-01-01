@@ -1,0 +1,157 @@
+.mega_menu .vc_col-sm-3 {
+    float: right;
+}
+
+@font-face {
+    font-family: 'Iran' ;
+    /*    src: url('../fonts/IRAN.woff') format('woff');*/
+    src: url('./font/iransans_ultralight.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,p,h1,h2,h3,h4,h5,h6,li,ul,input::placeholder,.tooltip,.rev-btn,.btn{
+    font-family: 'Iran' !important;
+   
+   
+}
+
+.help-block{
+    color: red;
+    font-weight: bold;
+}
+
+/* hot fix mobile isses */
+
+
+.desktop-footer.container {
+    display: block !important;
+}
+
+@media (max-width:700px) {
+.woocommerce-loop-product__link {
+    position: relative;
+    z-index: 100000;
+}
+
+.tab-content {
+    min-height: 280px;
+}
+
+}
+
+
+div#sidebar {
+    float: right !important;
+}
+.widget_product_categories .category-single>li>ul:last-child li .children li:first-child{
+    border-top:unset !important;
+}
+
+
+
+ ul.pagination>li {
+    float: left;
+    margin-right: .286em;
+    list-style: none;
+}
+ ul.pagination>li.active a{
+    background: yellow;
+}
+
+ ul.pagination>li.disabled span{
+    background: #f1f1f1;
+}
+ ul.pagination>li span, ul.pagination>li a {
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+    color: #7e7e7e;
+    display: block;
+    
+    border: 1px solid #e3e3e3;
+}
+.rtl {
+    margin-left: -17px;
+}
+
+.mega_menu > ul > li {
+    float: right;
+    width: 25%;
+}
+
+.menu_sub_mega {
+    width: 300px;
+}
+
+.tp-caption p {
+    text-align: right !important
+}
+.hentry .wp-post-image{
+    margin: 0 auto;
+}
+
+.add-to-cart-wrap a {
+    width: 100%;
+    text-align: center;
+}
+#newadd {
+    display: none;
+}
+
+.extended .single-product-wrapper>.product-actions-wrapper .product-actions div.availability{
+    padding-bottom: unset;
+}
+h1.product_title.entry-title{
+    font-size: 30px;
+}
+
+li.product-category.product.first {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+
+.navbar-search>.input-group .input-search-field{
+    margin-left:  -22px !important; 
+}
+.electro-navbar-primary .nav>.menu-item+.menu-item>a {
+    border: unset  !important; 
+}
+.top-bar.hidden-lg-down .container {
+    height: 20px;
+}
+
+.tab-content {
+    min-height: 490px;
+}
+
+label.dec,.inc,.removee{
+    cursor: pointer;
+}
+th{
+    text-align: right !important;
+}
+a.label {
+    color: gray;
+}
+
+ul.dropdown-menu {
+    text-align: right;
+}
+
+.input-group .form-control:hover { z-index: unset !important; }
+.input-group .form-control:focus { z-index: unset !important; }
+
+.header-site-branding {
+    transform: scale(.6);
+}
+.footer-logo {
+    transform: scale(0.7);
+}
+.handheld-header-v2{
+    background: #fff !important; 
+}

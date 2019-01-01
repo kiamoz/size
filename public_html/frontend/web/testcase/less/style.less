@@ -1,0 +1,113 @@
+@import "lesshat";
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+
+*, 
+*::before,
+*::after {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+html, 
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+	font-family: "Source Sans Pro";
+	background-color: #f0f2f5;
+}
+
+body > h1,
+body > h2,
+body > p {
+  text-align: center;
+}
+
+body > h1 {
+  margin: 1em 0;
+}
+
+h2 b {
+  color: #DA4453;
+}
+
+.body--grapefruit h2 b {
+  color: #ffce54;
+}
+
+h1,
+h2, 
+p,
+.list-palete,
+.output {
+  position: relative;
+  z-index: 999;
+}
+
+.output {
+  display: block;
+  min-width: 200px;
+  max-width: 600px;
+  min-height: 40px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  .border-radius( 10px );
+  font-size: 2em;
+  text-align: center;
+  border: 0 none;
+}
+
+.list-palete {
+  width: auto!important;
+  margin: 0 20px;
+  float: left;
+}
+.list-palete > .palete {
+    width: 180px;
+    margin: 2.5%;
+    float: left;
+}
+
+
+.palete-color__alternative {
+  float: right;
+  font-size: 10px;
+}
+
+.bg-colors( grapefruit, #ED5565, #DA4453 );
+.bg-colors( bittersweet, #FC6E51 , #E9573F  );
+.bg-colors( sunflower, #FFCE54, #FCBB42 );
+.bg-colors( grass, #A0D468, #8CC152 );
+.bg-colors( mint, #48CFAD, #37BC9B );
+
+.bg-colors( acqua, #4fc1e9, #3bafda );
+
+.bg-colors( blue-jeans, #5D9CEC, #4A89DC );
+.bg-colors( lavender_, #AC92EC, #967ADC );
+.bg-colors( pink-rose, #EC87C0, #D770AD );
+.bg-colors( light-gray, #F5F7FA, #E6E9ED );
+.bg-colors( medium-gray, #CCD1D9, #AAB2BD );
+.bg-colors( dark-gray, #656D78, #434A54 );
+
+.bg-colors( @name, @light, @dark ) {
+
+  .body--@{name} {
+    background-color: @light;
+  }
+  .body--@{name}::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: @dark;
+  }
+  
+}

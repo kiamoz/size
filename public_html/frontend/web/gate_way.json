@@ -1,0 +1,103 @@
+[{
+        "id": "bacs",
+        "title": "d2",
+        "description": "\u067e\u0631\u062f\u0627\u062e\u062a \u0622\u0646\u0644\u0627\u06cc\u0646 \u062a\u0648\u0633\u0637  \u06a9\u0644\u06cc\u0647 \u06a9\u0627\u0631\u062a \u0647\u0627\u06cc \u0639\u0636\u0648 \u0634\u0628\u06a9\u0647 \u0634\u062a\u0627\u0628",
+        "order": 0,
+        "enabled": true,
+        "method_title": "BACS",
+        "method_description": "Allows payments by BACS, more commonly known as direct bank\/wire transfer.",
+        "settings": {
+            "title": {
+                "id": "title",
+                "label": "Title",
+                "description": "This controls the title which the user sees during checkout.",
+                "type": "text",
+                "value": "\u067e\u0631\u062f\u0627\u062e\u062a \u0622\u0646\u0644\u0627\u06cc\u0646 \u0628\u0627\u0646\u06a9 \u0645\u0644\u062a",
+                "default": "Direct bank transfer",
+                "tip": "This controls the title which the user sees during checkout.",
+                "placeholder": ""
+            },
+            "instructions": {
+                "id": "instructions",
+                "label": "Instructions",
+                "description": "Instructions that will be added to the thank you page and emails.",
+                "type": "textarea",
+                "value": "",
+                "default": "",
+                "tip": "Instructions that will be added to the thank you page and emails.",
+                "placeholder": ""
+            }
+        },
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/payment_gateways\/bacs"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/payment_gateways"
+                }]
+        }
+    }, {
+        "id": "cod",
+        "title": "d1",
+        "description": "\u0628\u0627 \u0627\u06cc\u0646 \u0631\u0648\u0634 \u0648\u062c\u0647 \u0631\u0627 \u062f\u0631\u0628 \u0645\u0646\u0632\u0644 \u062e\u0648\u062f \u0628\u0647 \u0645\u0627\u0645\u0648\u0631  \u0627\u0631\u0633\u0627\u0644 \u0633\u0627\u06cc\u0632 \u067e\u0631\u062f\u0627\u062e\u062a \u06a9\u0631\u062f\u0647",
+        "order": 1,
+        "enabled": true,
+        "method_title": "Cash on delivery",
+        "method_description": "Have your customers pay with cash (or by other means) upon delivery.",
+        "settings": {
+            "title": {
+                "id": "title",
+                "label": "Title",
+                "description": "Payment method description that the customer will see on your checkout.",
+                "type": "text",
+                "value": "\u067e\u0631\u062f\u0627\u062e\u062a \u062f\u0631 \u0645\u062d\u0644",
+                "default": "Cash on delivery",
+                "tip": "Payment method description that the customer will see on your checkout.",
+                "placeholder": ""
+            },
+            "instructions": {
+                "id": "instructions",
+                "label": "Instructions",
+                "description": "Instructions that will be added to the thank you page.",
+                "type": "textarea",
+                "value": "\u0628\u0627 \u0627\u06cc\u0646 \u0631\u0648\u0634 \u0648\u062c\u0647 \u0631\u0627 \u062f\u0631\u0628 \u0645\u0646\u0632\u0644 \u062e\u0648\u062f \u0628\u0647 \u0645\u0627\u0645\u0648\u0631  \u0627\u0631\u0633\u0627\u0644 \u0633\u0627\u06cc\u0632 \u067e\u0631\u062f\u0627\u062e\u062a \u06a9\u0631\u062f\u0647",
+                "default": "Pay with cash upon delivery.",
+                "tip": "Instructions that will be added to the thank you page.",
+                "placeholder": ""
+            },
+            "enable_for_methods": {
+                "id": "enable_for_methods",
+                "label": "Enable for shipping methods",
+                "description": "If COD is only available for certain methods, set it up here. Leave blank to enable for all methods.",
+                "type": "multiselect",
+                "value": "",
+                "default": "",
+                "tip": "If COD is only available for certain methods, set it up here. Leave blank to enable for all methods.",
+                "placeholder": "",
+                "options": {
+                    "flat_rate": "Flat rate",
+                    "free_shipping": "Free shipping",
+                    "local_pickup": "Local pickup"
+                }
+            },
+            "enable_for_virtual": {
+                "id": "enable_for_virtual",
+                "label": "Accept COD if the order is virtual",
+                "description": "",
+                "type": "checkbox",
+                "value": "yes",
+                "default": "yes",
+                "tip": "",
+                "placeholder": ""
+            }
+        },
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/payment_gateways\/cod"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/payment_gateways"
+                }]
+        }
+    
+    }]

@@ -1,0 +1,244 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype');
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Source Sans Pro";
+  background-color: #f0f2f5;
+}
+body > h1,
+body > h2,
+body > p {
+  text-align: center;
+}
+body > h1 {
+  margin: 1em 0;
+}
+h2 b {
+  color: #DA4453;
+}
+.body--grapefruit h2 b {
+  color: #ffce54;
+}
+h1,
+h2,
+p,
+.list-palete,
+.output {
+  position: relative;
+  z-index: 999;
+}
+.output {
+  display: block;
+  min-width: 200px;
+  max-width: 600px;
+  min-height: 40px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 10px;
+  -moz-background-clip: padding;
+  border-radius: 10px;
+  background-clip: padding-box;
+  font-size: 2em;
+  text-align: center;
+  border: 0 none;
+}
+.list-palete {
+  width: auto!important;
+  margin: 0 20px;
+  float: left;
+}
+.list-palete > .palete {
+  width: 180px;
+  margin: 2.5%;
+  float: left;
+}
+.palete-color__alternative {
+  float: right;
+  font-size: 10px;
+}
+.body--grapefruit {
+  background-color: #ED5565;
+}
+.body--grapefruit::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #DA4453;
+}
+.body--bittersweet {
+  background-color: #FC6E51;
+}
+.body--bittersweet::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #E9573F;
+}
+.body--sunflower {
+  background-color: #FFCE54;
+}
+.body--sunflower::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #FCBB42;
+}
+.body--grass {
+  background-color: #A0D468;
+}
+.body--grass::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #8CC152;
+}
+.body--mint {
+  background-color: #48CFAD;
+}
+.body--mint::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #37BC9B;
+}
+.body--acqua {
+  background-color: #4fc1e9;
+}
+.body--acqua::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #3bafda;
+}
+.body--blue-jeans {
+  background-color: #5D9CEC;
+}
+.body--blue-jeans::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #4A89DC;
+}
+.body--lavender_ {
+  background-color: #AC92EC;
+}
+.body--lavender_::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #967ADC;
+}
+.body--pink-rose {
+  background-color: #EC87C0;
+}
+.body--pink-rose::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #D770AD;
+}
+.body--light-gray {
+  background-color: #F5F7FA;
+}
+.body--light-gray::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #E6E9ED;
+}
+.body--medium-gray {
+  background-color: #CCD1D9;
+}
+.body--medium-gray::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #AAB2BD;
+}
+.body--dark-gray {
+  background-color: #656D78;
+}
+.body--dark-gray::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #434A54;
+}

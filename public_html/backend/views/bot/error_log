@@ -1,0 +1,1 @@
+[23-May-2018 06:59:36 UTC] PHP Fatal error:  Using $this when not in object context in /home/forpidoc/public_html/backend/views/bot/index.php on line 10

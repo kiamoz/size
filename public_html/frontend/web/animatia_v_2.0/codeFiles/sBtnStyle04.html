@@ -1,0 +1,205 @@
+<!--
+
+    * HTML Document
+    * Name : Animatia Code File
+    * Author : Pixel_Factory
+
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animatia | Social Media Button Style 04</title>
+		<meta charset="utf-8">
+        <link rel="icon" href="../img/favicon.ico">
+        <link type="text/css" rel="stylesheet" href="assets/css/sh_acid.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+        <script type="text/javascript" src="assets/js/sh_main.min.js"></script>
+        <script type="text/javascript" src="assets/js/sh_html.min.js"></script>
+        <script type="text/javascript" src="assets/js/sh_css.min.js"></script>
+	</head>
+	<body onload="sh_highlightDocument();">
+        <div class="header">
+            <h1>Animatia | Social Media Button Style 04</h1>
+        </div>
+        <div class="content">
+            <div class="section-cont">
+                <div class="section">
+                    <div class="sec-header">
+                        <h1>HTML</h1>
+                    </div>
+                    <div class="dtl-cont">
+<pre class="sh_html">
+&lt;div class=&quot;sBtn04&quot;&gt;
+    &lt;img src=&quot;img/yourImage.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;div class=&quot;list-container&quot;&gt;
+        &lt;ul class=&quot;btn-list&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;fa fa-facebook&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;fa fa-twitter&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;fa fa-plus&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;fa fa-linkedin&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;fa fa-dribbble&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="sec-header">
+                        <h1>CSS</h1>
+                    </div>
+                    <div class="dtl-cont" style="border-bottom:0;">
+<pre class="sh_css">
+.sBtn04 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.sBtn04 img {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.sBtn04 .ovrly {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.sBtn04 .list-container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    height: 55px;
+    padding-bottom: 10px;
+    overflow: auto;
+    left: 0;
+}
+.sBtn04 .list-container .btn-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.sBtn04 .list-container .btn-list:before,
+.sBtn04 .list-container .btn-list:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.sBtn04 .list-container .btn-list li {
+    display: inline-block;
+    position: relative;
+}
+.sBtn04 .list-container .btn-list li .fa {
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #a1a1a1;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    width: 35px;
+    -webkit-transform: translateY(-130%);
+    -moz-transform: translateY(-130%);
+    -ms-transform: translateY(-130%);
+    -o-transform: translateY(-130%);
+    transform: translateY(-130%);
+}
+.sBtn04 .list-container .btn-list li .fa:hover {
+    color: #fff;
+}
+.sBtn04 .list-container .btn-list li .fa-facebook:hover {
+    background: #3b5998;
+}
+.sBtn04 .list-container .btn-list li .fa-twitter:hover {
+    background: #55acee;
+}
+.sBtn04 .list-container .btn-list li .fa-plus:hover {
+    background: #dd4b39;
+}
+.sBtn04 .list-container .btn-list li .fa-linkedin:hover {
+    background: #0976b4;
+}
+.sBtn04 .list-container .btn-list li .fa-dribbble:hover {
+    background: #ea4c89;
+}
+.sBtn04 .list-container .btn-list li .fa-facebook {
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0s, color 0.2s ease 0s;
+    -moz-transition: -moz-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0s, color 0.2s ease 0s;
+    -ms-transition: -ms-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0s, color 0.2s ease 0s;
+    transition: transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0s, color 0.2s ease 0s;
+}
+.sBtn04 .list-container .btn-list li .fa-twitter {
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.1s, color 0.2s ease 0s;
+    -moz-transition: -moz-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.1s, color 0.2s ease 0s;
+    -ms-transition: -ms-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.1s, color 0.2s ease 0s;
+    transition: transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.1s, color 0.2s ease 0s;
+}
+.sBtn04 .list-container .btn-list li .fa-plus {
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.2s, color 0.2s ease 0s;
+    -moz-transition: -moz-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.2s, color 0.2s ease 0s;
+    -ms-transition: -ms-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.2s, color 0.2s ease 0s;
+    transition: transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.2s, color 0.2s ease 0s;
+}
+.sBtn04 .list-container .btn-list li .fa-linkedin {
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.3s, color 0.2s ease 0s;
+    -moz-transition: -moz-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.3s, color 0.2s ease 0s;
+    -ms-transition: -ms-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.3s, color 0.2s ease 0s;
+    transition: transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.3s, color 0.2s ease 0s;
+}
+.sBtn04 .list-container .btn-list li .fa-dribbble {
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.4s, color 0.2s ease 0s;
+    -moz-transition: -moz-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.4s, color 0.2s ease 0s;
+    -ms-transition: -ms-transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.4s, color 0.2s ease 0s;
+    transition: transform 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.4s, color 0.2s ease 0s;
+}
+.sBtn03:hover .list-container {
+    display: block;
+}
+.sBtn04:hover .list-container .btn-list li .fa {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.sBtn04:hover .ovrly {
+    opacity: 1;
+}
+</pre> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; Pixel_Factory.</p>
+        </div>
+	</body>
+</html>

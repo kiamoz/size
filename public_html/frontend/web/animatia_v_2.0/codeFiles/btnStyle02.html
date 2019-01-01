@@ -1,0 +1,123 @@
+<!--
+
+    * HTML Document
+    * Name : Animatia Code File
+    * Author : Pixel_Factory
+
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animatia | Button Style 02</title>
+		<meta charset="utf-8">
+        <link rel="icon" href="../img/favicon.ico">
+        <link type="text/css" rel="stylesheet" href="assets/css/sh_acid.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+        <script type="text/javascript" src="assets/js/sh_main.min.js"></script>
+        <script type="text/javascript" src="assets/js/sh_html.min.js"></script>
+        <script type="text/javascript" src="assets/js/sh_css.min.js"></script>
+	</head>
+	<body onload="sh_highlightDocument();">
+        <div class="header">
+            <h1>Animatia | Button Style 02</h1>
+        </div>
+        <div class="content">
+            <div class="section-cont">
+                <div class="section">
+                    <div class="sec-header">
+                        <h1>HTML</h1>
+                    </div>
+                    <div class="dtl-cont">
+<pre class="sh_html">
+&lt;div class=&quot;btn02&quot;&gt;
+    &lt;img src=&quot;img/yourImage.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;div class=&quot;ovrly&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;buttons&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;fa fa-link&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;fa fa-search&quot;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="sec-header">
+                        <h1>CSS</h1>
+                    </div>
+                    <div class="dtl-cont" style="border-bottom:0;">
+<pre class="sh_css">
+.btn02 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.btn02 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.btn02 .ovrly {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn02 .buttons {
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.btn02 .buttons .fa {
+    margin: 0 1px;
+    background: rgba(256, 256, 256, 0.9);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+.btn02:hover .buttons {
+    left: 50%;
+}
+.btn02:hover .ovrly {
+    left: 0;
+}
+</pre> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; Pixel_Factory.</p>
+        </div>
+	</body>
+</html>

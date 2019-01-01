@@ -1,0 +1,259 @@
+[{
+        "id": 735,
+        "name": "\u0645\u0631\u062f\u0627\u0646\u0647",
+        
+        "parent": 0,
+       
+        "image": {
+        
+            "src": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-content\/uploads\/2017\/12\/man.png"
+         
+           
+        }
+       
+      
+        
+    }, {
+        "id": 725,
+        "name": "\u0632\u0646\u0627\u0646\u0647",
+        "slug": "women",
+        "parent": 735,
+        "description": "",
+        "display": "default",
+        "image": {
+            "id": 919,
+            "date_created": "2017-12-02T14:35:53",
+            "date_created_gmt": "2017-12-02T14:35:53",
+            "date_modified": "2017-12-02T14:35:53",
+            "date_modified_gmt": "2017-12-02T14:35:53",
+            "src": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-content\/uploads\/2017\/12\/woman-1.png",
+            "title": "woman-1",
+            "alt": ""
+        },
+        "menu_order": 0,
+        "count": 6,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/56"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }]
+        }
+    }, {
+        "id": 60,
+        "name": "Dresses",
+        "slug": "dresses",
+        "parent": 56,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 2,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/60"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }],
+            "up": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/56"
+                }]
+        }
+    }, {
+        "id": 62,
+        "name": "Jackets",
+        "slug": "jackets-men",
+        "parent": 52,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 2,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/62"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }],
+            "up": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/52"
+                }]
+        }
+    }, {
+        "id": 63,
+        "name": "Jeans",
+        "slug": "jeans",
+        "parent": 56,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 2,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/63"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }],
+            "up": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/56"
+                }]
+        }
+    }, {
+        "id": 54,
+        "name": "Shoes",
+        "slug": "shoes-men",
+        "parent": 52,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 1,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/54"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }],
+            "up": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/52"
+                }]
+        }
+    }, {
+        "id": 55,
+        "name": "T-Shirts",
+        "slug": "t-shirts",
+        "parent": 52,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 1,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/55"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }],
+            "up": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/52"
+                }]
+        }
+    }, {
+        "id": 57,
+        "name": "\u06a9\u06cc\u0641 \u0632\u0646\u0627\u0646\u0647",
+        "slug": "bags",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": {
+            "id": 918,
+            "date_created": "2017-12-02T14:35:04",
+            "date_created_gmt": "2017-12-02T14:35:04",
+            "date_modified": "2017-12-02T14:35:04",
+            "date_modified_gmt": "2017-12-02T14:35:04",
+            "src": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-content\/uploads\/2017\/12\/bag.png",
+            "title": "bag",
+            "alt": ""
+        },
+        "menu_order": 0,
+        "count": 1,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/57"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }]
+        }
+    }, {
+        "id": 58,
+        "name": "Bags",
+        "slug": "bags-men",
+        "parent": 52,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 1,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/58"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }],
+            "up": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/52"
+                }]
+        }
+    }, {
+        "id": 59,
+        "name": "Blazers",
+        "slug": "blazers",
+        "parent": 56,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 1,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/59"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }],
+            "up": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/56"
+                }]
+        }
+    }, {
+        "id": 61,
+        "name": "Jackets",
+        "slug": "jackets",
+        "parent": 56,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 1,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/61"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }],
+            "up": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/56"
+                }]
+        }
+    }, {
+        "id": 64,
+        "name": "Jeans",
+        "slug": "jeans-men",
+        "parent": 52,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 1,
+        "_links": {
+            "self": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/64"
+                }],
+            "collection": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories"
+                }],
+            "up": [{
+                    "href": "http:\/\/shidab.net\/mstore-master\/wordpress__\/wp-json\/wc\/v2\/products\/categories\/52"
+                }]
+        }
+    }]

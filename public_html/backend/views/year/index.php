@@ -1,0 +1,30 @@
+<?php
+
+use yii\helpers\Html;
+use yii\grid\GridView;
+
+
+$this->title = 'سالهای ساخت';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+<div class="year-index">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <p>
+        <?= Html::a('سال ساخت جدید', ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            //'id',
+            'year',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+</div>

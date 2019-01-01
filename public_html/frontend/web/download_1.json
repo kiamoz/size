@@ -1,0 +1,24 @@
+[{
+        "id": 2253,
+        "name": "پیراهن GUCCI",
+        "description": "",
+        "short_description": "",
+        "price": "920000",
+        "regular_price": "",
+        "sale_price": "0",
+        "in_stock": "true",
+        "on_sale": "false",
+        "related_ids": [],
+        "images": [ {
+            "src": "http:\/\/size.ir\/frontend\/web\/upload3\/_px__2252600550m.jpg"
+        }],
+        
+        "attributes": [{
+                "name": "color",
+                "options": ["red", "blue", "black", "white"]
+            }, {
+                "name": "size",
+                "options": ["S", "M", "L"]
+            }],
+        "default_attributes": []
+    }]
